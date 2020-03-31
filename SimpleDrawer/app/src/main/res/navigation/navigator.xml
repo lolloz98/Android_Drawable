@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.carpa.simpledrawer.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_secondaryFrag"
+            app:destination="@id/secondaryFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondaryFrag"
+        android:name="com.carpa.simpledrawer.SecondaryFrag"
+        android:label="fragment_secondary"
+        tools:layout="@layout/fragment_secondary" />
+    <fragment
+        android:id="@+id/drawFirstFrag"
+        android:name="com.carpa.simpledrawer.DrawFirstFrag"
+        android:label="fragment_draw_first"
+        tools:layout="@layout/fragment_draw_first" />
+    <fragment
+        android:id="@+id/drawSecondFrag"
+        android:name="com.carpa.simpledrawer.DrawSecondFrag"
+        android:label="fragment_draw_second"
+        tools:layout="@layout/fragment_draw_second" />
+</navigation>

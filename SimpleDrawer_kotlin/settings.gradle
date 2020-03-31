@@ -1,0 +1,2 @@
+rootProject.name='SimpleDrawer_kotlin'
+include ':app'
