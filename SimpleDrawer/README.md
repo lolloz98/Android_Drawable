@@ -1,4 +1,4 @@
-# Android_Drawer
+# SimpleDrawer
 Guide on how to set up an app with a drawer and the navigation component.
 ## Description
 This is a really simple app: we are just able to use the drawer to navigate to two different locations and a button to navigate in another fragment.\
